@@ -9,3 +9,5 @@ imageView.rotate(45.0)
 imageView.executeTransforms()
 ```
 Note that nothing happens without the call to `executeTransforms` - this is to prevent multiple calls for bulk transformations
+
+> Warning - This library has not been tested on any platform
